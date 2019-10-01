@@ -1,4 +1,4 @@
-# CExtention
+# CExtension
 Try to use C Library as an extension for Python
 
 # Introduction
@@ -20,9 +20,10 @@ python setup.py install
 cd test
 python test_hello_world.py
 ```
-# Results
+# Showcase
 - test_loop.py - We add a number from 0 to 1,000,000.
 ```	
 C prograom: Takes about 0.00001s
 Python Program: Takes about 0.12226s 
 ``` 
+
