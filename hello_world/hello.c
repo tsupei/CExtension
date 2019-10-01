@@ -2,7 +2,7 @@
 
 static PyObject *module_func(PyObject *self, PyObject *args){
 	printf("RUN A C PROGRAM");
-	return Py_BuildValue("s", "Hello!");
+	return Py_BuildValue("s", "Hello World!!");
 }
 
 static PyMethodDef module_methods[] = {
