@@ -10,15 +10,15 @@ Some heavy calculation in Python could be handled by C alternatively.
 2. Enable C Extentions in setpy.py
 3. Generate modules by `Distutils`
 
-# Testing
+# Testing Steps
 
 1. git clone this repository
 2. Enter an virtual environment(Optional)
 3. Run
 ```commandline
-	python setup.py install
-	cd test
-	python test_hello_world.py
+python setup.py install
+cd test
+python test_hello_world.py
 ```
 # Results
 - test_loop.py - We add a number from 0 to 1,000,000.
